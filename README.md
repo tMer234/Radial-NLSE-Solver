@@ -1,7 +1,7 @@
 
 # 2D_NLSE_Solver — Improved Shooting, Sweeps, and Diagnostics
 
-This repository contains a research-quality MATLAB implementation for computing radially symmetric steady states of the 2D nonlinear Schrödinger equation (NLSE) via shooting, and for performing split-step time evolution with diagnostics. The code has been refactored to be robust at r→0, to provide diagnostics suitable for parameter sweeps, and to be reproducible for research work.
+This repository contains a MATLAB implementation for computing radially symmetric steady states of the 2D nonlinear Schrödinger equation (NLSE) via shooting, and for performing split-step time evolution with diagnostics.
 
 ## Files and Purpose
 - `radial_system.m` — RHS for radial ODE Q'' + (1/r) Q' - Q + Q^3 = 0 with r→0 handling.
